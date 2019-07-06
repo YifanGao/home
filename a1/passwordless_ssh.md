@@ -8,7 +8,7 @@ Generate an ECDSA key pair,
 ssh-keygen  -b 521 -t ecdsa -f $(KEY_NAME)
 ~~~~
 
-or generate an ECDSA key pair,
+or generate an RSA key pair,
 
 ~~~~
 ssh-keygen  -b 8192 -t rsa -f $(KEY_NAME)
